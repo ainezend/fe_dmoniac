@@ -1,0 +1,44 @@
+name: fe_dmoniac
+description: A new Flutter project.
+publish_to: "none"
+version: 0.1.0
+
+environment:
+  sdk: ">=3.0.6 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.5
+  curved_navigation_bar: ^1.0.3
+  timeline_tile: ^2.0.0
+  postgres: ^2.6.2
+  intl: ^0.18.1
+  snippet_coder_utils: ^1.0.14
+  flutter_native_splash: ^2.3.2
+  percent_indicator: ^4.2.3
+  google_nav_bar: ^5.0.6
+  liquid_pull_to_refresh: ^3.0.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+flutter:
+  uses-material-design: true
+
+assets:
+  - lib/pages
+  - lib/fonts
+  - lib/images/mainlogo.png
+  - lib/images/sponsorship.png
+  - lib/components
+
+fonts:
+  - family: League Spartan
+    fonts:
+      - lib/fonts/LeagueSpartan-VariableFont_wght.ttf
+  - family: Poppins
+    fonts:
+      - lib/fonts/Poppins-Regular.ttf
